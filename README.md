@@ -6,10 +6,10 @@ and pylcddc. The included service file requires systemd.
 
 # Installing
 
-For a system install, use '''pip install --system -r requirements.txt''' to
+For a system install, use ```pip install --system -r requirements.txt``` to
 install dependencies to the system, copy the script to /usr/local/bin, and copy
 the service to /etc/systemd/user. Make a symlink to it in /etc/systemd/system,
-then run '''systemd start mdlcd''' and '''systemd enable mdlcd'''. The service
+then run ```systemd start mdlcd``` and ```systemd enable mdlcd```. The service
 is configured to run as the user nobody, since no privileges are required.
 
 # Usage
