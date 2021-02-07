@@ -1,0 +1,12 @@
+[Unit]
+Description=mdLCD client
+After=LCDd.service
+
+[Service]
+User=nobody
+ExecStart=/usr/local/bin/mdlcd.py
+Restart = always
+RestartSec = 60
+
+[Install]
+WantedBy=multi-user.target

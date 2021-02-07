@@ -1,0 +1,2 @@
+mdstat==1.0.4
+pylcddc==0.3.0

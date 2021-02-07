@@ -1,0 +1,10 @@
+Personalities : [raid6] [raid5] [raid4] [linear] [multipath] [raid0] [raid1] [raid10] 
+md12  : active raid5 sdl1[3](F) sdc1[4] sdb1[5]
+      1948672000 blocks super 1.2 level 5, 512k chunk, algorithm 2 [3/2] [UU_]
+      
+md126 : active raid5 sdg1[4] sdf1[2] sde1[1] sdd1[0]
+      5853855744 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/4] [UUUU]
+      [====>................]  check = 21.6% (422430400/1951285248) finish=366.0min speed=69612K/sec
+      bitmap: 2/15 pages [8KB], 65536KB chunk
+
+unused devices: <none>
